@@ -1,0 +1,96 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@huolala-tech/page-spy-api':
+        specifier: ^2.2.4
+        version: 2.2.4
+
+packages:
+
+  '@huolala-tech/page-spy-api-darwin-amd64@2.2.4':
+    resolution: {integrity: sha512-ZQxyfTULL5MuZJAMcCkATqpe1XnlgJ0bzKdHuZBdClaDhroEJbCqIV5ytPOwBnE+Rwlc389cD6aQ2BhQWvvpwA==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@huolala-tech/page-spy-api-darwin-arm64@2.2.4':
+    resolution: {integrity: sha512-Bapb0oMPMFIvFDQfElLMmQemft/M8ofRxhZbf6RrrtiwZL1hjVw6BNuvp3E6dFbXJYSaM3k4yYJ9WXjRjT8KuQ==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@huolala-tech/page-spy-api-linux-amd64@2.2.4':
+    resolution: {integrity: sha512-MsuoM1TtXz0+4Q/rw/GwST17aAwW/rTLgRsROdBp7qPH9CpTsCcdI4VdFW3AOqrHgZudbr/3UTb/FHM1WCLRsw==}
+    cpu: [x64]
+    os: [linux]
+
+  '@huolala-tech/page-spy-api-linux-arm64@2.2.4':
+    resolution: {integrity: sha512-FzZG1jle/7NzMLKFIEHu3tn0pCVhjrn+tFCh4nv84FTc0oYDc3Z88bsNofr/EMFtlmQI2OXzH32EQS7euj3/2g==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@huolala-tech/page-spy-api-linux-arm@2.2.4':
+    resolution: {integrity: sha512-p2DbqaVSqBWEV9czAmc+BKtPzkhEM34uizmdE5Cj/bh8LBUM/L3hvfxDwFGoe7bpJ75n9OMvz4JM1PZqtf4QmA==}
+    cpu: [arm]
+    os: [linux]
+
+  '@huolala-tech/page-spy-api-win32-amd64@2.2.4':
+    resolution: {integrity: sha512-NT2sqqay1Mv6lkwu24LU3P0qebyTXHVXgJ7mN7ec2fWnkz+G6AP+PUmz6WCw4NyBFZqDg6f97tAyx5wx82ND9g==}
+    cpu: [x64]
+    os: [win32]
+
+  '@huolala-tech/page-spy-api-win32-arm64@2.2.4':
+    resolution: {integrity: sha512-BKzisB34QshLOO6czFABJKQMgmsJJ0GJMSSdnjHjR/3HD/wf4GFvA45UucaRoxCexjuim6QjZfnW0ad/8xHpNQ==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@huolala-tech/page-spy-api-win32-arm@2.2.4':
+    resolution: {integrity: sha512-3r7MCiMvzEfH4ef8Tq8rRU+Z4LZqFwGRvjaTUeZ5sDI+q2E+RJ57VvBwrNR3X+8CFPWh2LKppAF55hGsx3N+KQ==}
+    cpu: [arm]
+    os: [win32]
+
+  '@huolala-tech/page-spy-api@2.2.4':
+    resolution: {integrity: sha512-daDL58PtwpR1EKznuZMDHSM+bqDmevpgfoR65NeexNlDQZsfEXcBCEzMEcL5UJdQutI97SIQAdQHRJAzAKQB0A==}
+    hasBin: true
+
+snapshots:
+
+  '@huolala-tech/page-spy-api-darwin-amd64@2.2.4':
+    optional: true
+
+  '@huolala-tech/page-spy-api-darwin-arm64@2.2.4':
+    optional: true
+
+  '@huolala-tech/page-spy-api-linux-amd64@2.2.4':
+    optional: true
+
+  '@huolala-tech/page-spy-api-linux-arm64@2.2.4':
+    optional: true
+
+  '@huolala-tech/page-spy-api-linux-arm@2.2.4':
+    optional: true
+
+  '@huolala-tech/page-spy-api-win32-amd64@2.2.4':
+    optional: true
+
+  '@huolala-tech/page-spy-api-win32-arm64@2.2.4':
+    optional: true
+
+  '@huolala-tech/page-spy-api-win32-arm@2.2.4':
+    optional: true
+
+  '@huolala-tech/page-spy-api@2.2.4':
+    optionalDependencies:
+      '@huolala-tech/page-spy-api-darwin-amd64': 2.2.4
+      '@huolala-tech/page-spy-api-darwin-arm64': 2.2.4
+      '@huolala-tech/page-spy-api-linux-amd64': 2.2.4
+      '@huolala-tech/page-spy-api-linux-arm': 2.2.4
+      '@huolala-tech/page-spy-api-linux-arm64': 2.2.4
+      '@huolala-tech/page-spy-api-win32-amd64': 2.2.4
+      '@huolala-tech/page-spy-api-win32-arm': 2.2.4
+      '@huolala-tech/page-spy-api-win32-arm64': 2.2.4
