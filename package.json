@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'build'",
-    "start": "page-spy-api"
+    "build": "page-spy-api"
   },
   "keywords": [],
   "author": "",
